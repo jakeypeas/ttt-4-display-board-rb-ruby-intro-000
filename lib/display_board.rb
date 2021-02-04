@@ -6,9 +6,7 @@ def display_board(board)
   puts rows[2]="   |   |   "
   puts rows[3]="-----------"
   puts rows[4]="   |   |   "
-  end
 
-  def display_board(board)
     board = [" "," "," "," ","X"," "," "," "," "]
     rows = [" ", " ", " "]
       puts rows[0]="   |   |   "
@@ -16,9 +14,7 @@ def display_board(board)
     puts rows[2]="   | X |   "
     puts rows[3]="-----------"
     puts rows[4]="   |   |   "
-    end
 
-  def display_board(board)
       board = ["O"," "," "," "," "," "," "," "," "]
       puts board[0]="O"
       rows = [" ", " ", " "]
@@ -27,9 +23,7 @@ def display_board(board)
       puts rows[2]="   |   |   "
       puts rows[3]="-----------"
       puts rows[4]="   |   |   "
-      end
 
-      def display_board(board)
         board = ["O"," "," "," ","X"," "," "," "," "]
         rows = [" ", " ", " "]
           puts rows[0]=" O |   |   "
@@ -37,9 +31,7 @@ def display_board(board)
         puts rows[2]="   | X |   "
         puts rows[3]="-----------"
         puts rows[4]="   |   |   "
-        end
 
-        def display_board(board)
           board = ["X","X","X"," "," "," "," "," "," "]
           rows = [" ", " ", " "]
             puts rows[0]=" X | X | X "
@@ -47,9 +39,7 @@ def display_board(board)
           puts rows[2]="   |   |   "
           puts rows[3]="-----------"
           puts rows[4]="   |   |   "
-          end
-
-          def display_board(board)
+          
             board = [" "," "," "," "," "," ","O","O","O"]
             rows = [" ", " ", " "]
               puts rows[0]="   |   |   "
@@ -57,9 +47,7 @@ def display_board(board)
             puts rows[2]="   |   |   "
             puts rows[3]="-----------"
             puts rows[4]=" O | O | O "
-            end
-
-def display_board(board)
+            
   board = ["X"," "," "," ","X"," "," "," ","X"]
   rows = [" ", " ", " "]
     puts rows[0]=" X |   |   "
@@ -67,9 +55,8 @@ def display_board(board)
     puts rows[2]="   | X |   "
     puts rows[3]="-----------"
     puts rows[4]="   |   | X "
-    end
 
-def display_board(board)
+
   board = [" "," ","O"," ","O"," ","O"," "," "]
   rows = [" ", " ", " "]
     puts rows[0]="   |   | O "
