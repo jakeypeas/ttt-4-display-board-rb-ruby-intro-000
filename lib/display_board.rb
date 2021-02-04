@@ -8,7 +8,7 @@ def display_board(board)
   puts rows[4]="   |   |   "
   end
 
-  def display_board1(board)
+  def display_board(board)
     board = [" "," "," "," ","X"," "," "," "," "]
     rows = [" ", " ", " "]
       puts rows[0]="   |   |   "
@@ -18,7 +18,7 @@ def display_board(board)
     puts rows[4]="   |   |   "
     end
 
-  def display_board2(board)
+  def display_board(board)
       board = ["O"," "," "," "," "," "," "," "," "]
       puts board[0]="O"
       rows = [" ", " ", " "]
@@ -29,7 +29,7 @@ def display_board(board)
       puts rows[4]="   |   |   "
       end
 
-      def display_board3(board)
+      def display_board(board)
         board = ["O"," "," "," ","X"," "," "," "," "]
         rows = [" ", " ", " "]
           puts rows[0]=" O |   |   "
@@ -39,7 +39,7 @@ def display_board(board)
         puts rows[4]="   |   |   "
         end
 
-        def display_board4(board)
+        def display_board(board)
           board = ["X","X","X"," "," "," "," "," "," "]
           rows = [" ", " ", " "]
             puts rows[0]=" X | X | X "
@@ -49,7 +49,7 @@ def display_board(board)
           puts rows[4]="   |   |   "
           end
 
-          def display_board5(board)
+          def display_board(board)
             board = [" "," "," "," "," "," ","O","O","O"]
             rows = [" ", " ", " "]
               puts rows[0]="   |   |   "
@@ -59,7 +59,7 @@ def display_board(board)
             puts rows[4]=" O | O | O "
             end
 
-            def display_board6(board)
+            def display_board(board)
               board = ["X"," "," "," ","X"," "," "," ","X"]
               rows = [" ", " ", " "]
                 puts rows[0]=" X |   |   "
@@ -69,7 +69,7 @@ def display_board(board)
               puts rows[4]="   |   | X "
               end
 
-def display_board7(board)
+def display_board(board)
   board = [" "," ","O"," ","O"," ","O"," "," "]
   rows = [" ", " ", " "]
     puts rows[0]="   |   | O "
