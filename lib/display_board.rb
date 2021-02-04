@@ -9,7 +9,7 @@ def display_board(board)
     board = [" "," "," "," ","X"," "," "," "," "]
       puts rows[0]="   |   |   "
     puts rows[1]= "-----------"
-    puts rows[2]="   | X |   "
+    puts rows[2]="   | #{board[5]} |   "
     puts rows[3]="-----------"
     puts rows[4]="   |   |   "
 
