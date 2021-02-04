@@ -5,13 +5,15 @@ def display_board(board)
   puts rows[2]="   |   |   "
   puts rows[3]="-----------"
   puts rows[4]="   |   |   "
-
+end
+def display_board(board)
     board = [" "," "," "," ","X"," "," "," "," "]
       puts rows[0]="   |   |   "
     puts rows[1]= "-----------"
     puts rows[2]="   | #{board[5]} |   "
     puts rows[3]="-----------"
     puts rows[4]="   |   |   "
+end
 
       board = ["O"," "," "," "," "," "," "," "," "]
       puts board[0]="O"
