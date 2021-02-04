@@ -20,6 +20,7 @@ def display_board(board)
 
   def display_board2(board)
       board = ["O"," "," "," "," "," "," "," "," "]
+      puts board[0]="O"
       rows = [" ", " ", " "]
         puts rows[0]=" O |   |   "
       puts rows[1]= "-----------"
