@@ -39,7 +39,7 @@ def display_board(board)
           puts rows[2]="   |   |   "
           puts rows[3]="-----------"
           puts rows[4]="   |   |   "
-          
+
             board = [" "," "," "," "," "," ","O","O","O"]
             rows = [" ", " ", " "]
               puts rows[0]="   |   |   "
@@ -47,7 +47,7 @@ def display_board(board)
             puts rows[2]="   |   |   "
             puts rows[3]="-----------"
             puts rows[4]=" O | O | O "
-            
+
   board = ["X"," "," "," ","X"," "," "," ","X"]
   rows = [" ", " ", " "]
     puts rows[0]=" X |   |   "
