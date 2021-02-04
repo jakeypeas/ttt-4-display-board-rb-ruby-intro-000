@@ -59,15 +59,15 @@ def display_board(board)
             puts rows[4]=" O | O | O "
             end
 
-            def display_board(board)
-              board = ["X"," "," "," ","X"," "," "," ","X"]
-              rows = [" ", " ", " "]
-                puts rows[0]=" X |   |   "
-              puts rows[1]= "-----------"
-              puts rows[2]="   | X |   "
-              puts rows[3]="-----------"
-              puts rows[4]="   |   | X "
-              end
+def display_board(board)
+  board = ["X"," "," "," ","X"," "," "," ","X"]
+  rows = [" ", " ", " "]
+    puts rows[0]=" X |   |   "
+    puts rows[1]= "-----------"
+    puts rows[2]="   | X |   "
+    puts rows[3]="-----------"
+    puts rows[4]="   |   | X "
+    end
 
 def display_board(board)
   board = [" "," ","O"," ","O"," ","O"," "," "]
