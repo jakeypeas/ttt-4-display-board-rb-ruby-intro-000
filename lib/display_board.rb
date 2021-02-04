@@ -1,5 +1,5 @@
 def display_board(board)
-  board = [" "," "," "," "," "," "," "," "," "] 
+  board = [" "," "," "," "," "," "," "," "," "]
   puts(rows[0])=("   |   |   ")
   puts(rows[1])=("-----------")
   puts(rows[2])=("   |   |   ")
