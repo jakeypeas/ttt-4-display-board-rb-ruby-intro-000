@@ -61,12 +61,12 @@ def display_board(board)
               puts rows[3]="-----------"
               puts rows[4]="   |   | X "
               end
-              def display_board(board)
-                board = [" "," ","O"," ","O"," ","O"," "," "]
-                rows = [" ", " ", " "]
-                  puts rows[0]="   |   | O "
-                puts rows[1]= "-----------"
-                puts rows[2]="   | O |   "
-                puts rows[3]="-----------"
-                puts rows[4]=" O |   |   "
-                end
+def display_board(board)
+  board = [" "," ","O"," ","O"," ","O"," "," "]
+  rows = [" ", " ", " "]
+    puts rows[0]="   |   | O "
+    puts rows[1]= "-----------"
+    puts rows[2]="   | O |   "
+    puts rows[3]="-----------"
+    puts rows[4]=" O |   |   "
+    end
