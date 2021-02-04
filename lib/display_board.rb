@@ -1,6 +1,7 @@
-display_board(board)
-(rows[0])=("   |   |   ")
-(rows[1])=("-----------")
-(rows[2])=("   |   |   ")
-(rows[3])=("-----------")
-(rows[4])=("   |   |   ")
+def display_board(board)
+  board = [" "," "," "," "," "," "," "," "," "] 
+  puts(rows[0])=("   |   |   ")
+  puts(rows[1])=("-----------")
+  puts(rows[2])=("   |   |   ")
+  puts(rows[3])=("-----------")
+  puts(rows[4])=("   |   |   ")
